@@ -1,6 +1,8 @@
 Andre's Pricewatch
 ==================
 
+(Hinweis: Deutschsprachige [README](README.de.md) verfügbar)
+
 This little utility keeps an eye on the price of products in supported online shops.
 If the price changes, an e-mail is sent out.
 
