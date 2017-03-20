@@ -1,0 +1,32 @@
+; The DEFAULT section inherits all fields to the special product sections below.
+; You can set all variables also in the individual product sections.
+[DEFAULT]
+; the email address to be used for notifications
+email = root@localhost
+
+; supported notify methods:
+; price_changed = notify on every price change
+; price_lower = notify only on lower price
+notify = price_changed
+
+; the cache file where old prices are stored (global variable, this must be here)
+dbfile = pricewatch.cache
+
+; number of retries for every product in case of error
+retries = 5
+
+; Saturn.de example section
+; Set the query URL to the main product page
+;[SonyAlphaSaturn]
+;provider = saturn.de
+;url = http://www.saturn.de/de/product/_sony-alpha-6000-lh-kit-2196977.html
+
+; Amazon.de example section
+; You have to sign up for Amazon's (free) product advertising API and
+; set the AMAZON_ACCESS_KEY, AMAZON_SECRET_KEY and AMAZON_ASSOC_TAG
+;[SonyAlphaAmazon]
+;provider = amazon.de
+;asin = B00IE9XHE0
+;AMAZON_ACCESS_KEY = XXX
+;AMAZON_SECRET_KEY = XXX
+;AMAZON_ASSOC_TAG = XXX ; association tag
