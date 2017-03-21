@@ -7,6 +7,7 @@ Wenn sich der Preis ändert, wird eine E-Mail ausgesendet.
 Momentan unterstützte Shops:
 - Amazon.de
 - Saturn.de
+- Mediamarkt.de (Saturn.de Provider in Konfigurationsdatei nutzen)
 
 Am besten setzt man einen cron job auf, damit das Skript periodisch ausgeführt wird.
 So wird man informiert, sobald sich der Preis ändert.

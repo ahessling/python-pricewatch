@@ -9,6 +9,7 @@ If the price changes, an e-mail is sent out.
 Shops included as of the time of writing:
 - Amazon.de
 - Saturn.de
+- Mediamarkt.de (use Saturn.de provider in configuration file)
 
 Set up a cron job to execute the script periodically. This will get you informed
 whenever there is a price change.
