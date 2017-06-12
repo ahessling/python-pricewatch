@@ -14,7 +14,7 @@ def provider_saturn(section):
 
 	try:
 		url_request = requests.get(section['url'])
-		soup = BeautifulSoup(url_request.text)
+		soup = BeautifulSoup(url_request.text, "lxml")
 
 		result = soup.find(property="product:price:amount")
 
