@@ -139,6 +139,8 @@ def iterate_sections(config):
 				print("Provider " + provider + " not found", file=sys.stderr)
 				exit(-1)
 
+			retry += 1
+
 		if not (price is None):
 			print(section + ": provided price " + str(price))
 		else:
